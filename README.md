@@ -76,7 +76,6 @@ input file is in the input_directory.
   "sequences": [
     {
       "protein": {
-        "id": ["A", "B"],
         "sequence": "GMRESYANENQFGFKTINSDIHKIVIVGGYGKLGGLFARYLRASGYPISILDREDWAVAESILANADVVIVSVPINLTLETIERLKPYLTENMLLADLTSVKREPLAKMLEVHTGAVLGLHPMFGADIASMAKQVVVRCDGRFPERYEWLLEQIQIWGAKIYQTNATEHDHNMTYIQALRHFSTFANGLHLSKQPINLANLLALSSPIYRLELAMIGRLFAQDAELYADIIMDKSENLAVIETLKQTYDEALTFFENNDRQGFIDAFHKVRDWFGDYSEQFLKESRQLLQQANDLKQG"
       }
     }
@@ -85,6 +84,7 @@ input file is in the input_directory.
   "dialect": "alphafold3",
   "version": 1
 }
+
 ```
 
 The **output_directory** is already created by me (Taim) */opt/alphafold3/output_files* , and that is where the output will be stored.
