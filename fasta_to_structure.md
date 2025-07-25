@@ -16,7 +16,7 @@ When you use Alphafold3, you need to cite the people who created it as the follo
 }
 ```
 ## Another important note:
-This does prediction of multiple sequences found in one fasta files. However, here you have only simple prediction of protein structure (no binding legends, no PTM, and so on). I will soon make a tutorial for these customizations. 
+This does prediction of multiple sequences found in one fasta file. However, here you have only simple prediction of protein structure (no binding legends, no PTM, and so on). I will soon make a tutorial for these customizations. 
 
 ## **1) Convert *.fasta* file into *.json* files**
 Alphafold3 only takes input files in *.json* format, which is not as widely used as *.fasta*. But no worries, I made a python script that converts the fasta file into json file(s). Alphafold3 only takes one sequence per *.json* file, unlike previously where you could include multiple sequences in one file. Therefore, if you have a fasta file with multiple sequences that you want to predict their structure, you need to have a sepearte json file for each sequence. This is what my python script do for you .
