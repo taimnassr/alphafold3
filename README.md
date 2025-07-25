@@ -1,5 +1,7 @@
 # alphafold3
 
+Please ignore this tutorial. The tutorial of multiple sequence prediction is found in the fasta_to_structure.md
+
 This an instruction tutorial on how to use alphafold3 on the server:
 
 ## **IMPORTANT NOTE BEFORE ANYTHING**
